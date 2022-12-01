@@ -1,9 +1,9 @@
 import React from 'react';
 
 function App() {
-  const value = 'iSpace';
+  const value = 'iSpacian';
   const date = date;
-  return <><div>Hello {value}</div><h1>Today is {date}</h1></>
+  return <><div>Welcome {value}</div><h1>Today is {date}</h1></>
   ;
 }
 
