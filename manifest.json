@@ -1,0 +1,45 @@
+ {
+"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+"manifestVersion": "1.7",
+"version": "1.0.0",
+"showLoadingIndicator": true,
+"isFullscreen": true,
+"id": "bd4d7298-5104-41f9-b63a-f9da4265537c",
+"packageName": "staticapp",
+"developer": {
+    "name": "my-first-static-web-app",
+    "websiteUrl": "https://icy-flower-0e6831a00.2.azurestaticapps.net/",
+    "privacyUrl": "https://icy-flower-0e6831a00.2.azurestaticapps.net/Privacy",
+    "termsOfUseUrl": "https://icy-flower-0e6831a00.2.azurestaticapps.net/Termsofuse",
+    "mpnId": "00000"
+},
+"icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+},
+"name": {
+    "short": "staticapp",
+    "full": "mySTATIC APP Virtual Assistant"
+},
+"description": {
+    "short": "myBOT",
+    "full": "I am a Virtual Assistant, continuously in training to enhance my skills. Currently, I can help you by answering inquiries related to COVID-19, Zoom, Webex, Microsoft Office, Adobe, Microsoft Azure and Xbox. For questions that are not currently in my search database, I leverage the web to fetch you those information."
+},
+"accentColor": "#F9F9FA",
+"bots": [
+    {
+        "botId": "bd4d7298-5104-41f9-b63a-f9da4265537c",
+        "scopes": [
+            "team",
+            "personal",
+            "groupchat"
+        ],
+        "supportsFiles": false,
+        "isNotificationOnly": false
+    }
+],
+"permissions": [
+    "identity",
+    "messageTeamMembers"
+],
+"validDomains": [] }
