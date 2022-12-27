@@ -1,4 +1,6 @@
 import React from 'react';
+import * as msTeams from '@microsoft/teams-js';
+
 
 
 function App() {
